@@ -1,0 +1,5 @@
+.hydra/
+__pycache__/
+*.pyc
+*.pyo
+*.log
