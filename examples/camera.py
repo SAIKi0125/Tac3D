@@ -7,7 +7,7 @@ import pybullet as p
 
 
 class Camera:
-    def __init__(self, width=320, height=240):
+    def __init__(self, width=20, height=20):
         self.width = width
         self.height = height
 
