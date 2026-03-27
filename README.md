@@ -19,12 +19,15 @@
 
 ## 环境安装
 
+要求 Python 版本：`3.7.12`。
+
 ```bash
+conda env create -f environment.yml
+conda activate tacto
+
 pip install -e .
 pip install -r requirements/examples.txt
 ```
-
-如果使用 conda，请先激活你的环境（例如 `parkour`）。
 
 ## 常用运行命令
 
